@@ -1,6 +1,6 @@
 import codecs
 from six.moves.configparser import ConfigParser
-from StringIO import StringIO
+from six import StringIO
 
 from .base import Records
 from .id_generator import create_id
