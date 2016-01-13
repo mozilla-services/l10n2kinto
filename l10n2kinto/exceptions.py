@@ -1,0 +1,2 @@
+class SynchronizationError(Exception):
+    pass
